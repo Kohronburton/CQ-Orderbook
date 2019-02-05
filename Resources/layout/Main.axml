@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res-auto"
+	p1:orientation="vertical"
+	p1:layout_width="match_parent"
+	p1:layout_height="wrap_content"
+	p1:id="@+id/sfDataGrid">
+	<Syncfusion.SfDataGrid.DataPager.SfDataPager
+		p1:minWidth="25px"
+		p1:minHeight="25px"
+		p1:id="@+id/sfDataPager1"
+		p1:layout_width="match_parent"
+		p1:layout_height="50.0dp"
+		custom:numericButtonCount="5"
+		custom:pageSize="15"
+		custom:pageCount="5" />
+	<Syncfusion.SfDataGrid.SfDataGrid
+		p1:minWidth="25px"
+		p1:minHeight="25px"
+		p1:layout_width="match_parent"
+		p1:layout_height="wrap_content"
+		p1:id="@+id/sfDataGrid"
+		custom:allowEditing="true"
+		custom:allowSorting="true"
+		custom:allowResizingColumn="true"
+		custom:gridSelectionMode="true"	/>
+</LinearLayout>
